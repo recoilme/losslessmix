@@ -39,7 +39,7 @@ python3 losslessmix.py colorful_v12_RC1.ckpt liberty.ckpt has3dkx.ckpt --out tst
  Weighted Sum merge (liberty + has3dkx)
   ![ws05](examples/ws05.png?raw=true)
 
- LossLessMix (colorful + liberty + has3dkx)
+ **LossLessMix (colorful + liberty + has3dkx)**
   ![mindif](examples/mindif.png?raw=true)
 
  Delibirate (not mixed, just for "variety" comparing)
