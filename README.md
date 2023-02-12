@@ -53,9 +53,11 @@ python3 losslessmix.py colorful_v12_RC1.ckpt liberty.ckpt has3dkx.ckpt --out tst
  **LossLessMix (colorful + liberty + has3dkx)**
   ![mindif](examples/mindif.png?raw=true)
 
- Delibirate (not mixed, just for "variety" comparing)
-  ![delibirate](examples/delibirate.png?raw=true)
-
+ **LossLessMix with beta 1.1 (has3dkx * 1.1)**
+```
+python3 losslessmix.py colorful_v11.ckpt liberty.ckpt has3dkx.ckpt --out tst --beta 1.1
+```
+  ![beta](examples/beta.png?raw=true)
 # Prompt:
 ```
 modelshoot style, (extremely detailed CG unity 8k wallpaper), full shot body photo of the most beautiful artwork in the world, medieval armor, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski
