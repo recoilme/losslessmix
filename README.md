@@ -60,4 +60,4 @@ But it work well then merge redshiftdiffusion with landscape model, try "Ford mu
 
 ## PS
 
-Unfortunately I am limited in the speed of algorithm development (macbook air m1), I would be happy if you find this algorithm useful. My Doge Wallet: 
+Unfortunately I am limited in the speed of algorithm development (macbook air m1), I would be happy if you find this algorithm useful. My Doge Wallet: DEw2DR8C7BnF8GgcrfTzUjSnGkuMeJhg83
