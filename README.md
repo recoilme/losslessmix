@@ -22,14 +22,19 @@ a[key] = c[key] * (abs(a[key] - args.alpha*b[key]) > abs(a[key] - args.beta*c[ke
 ## Example
 
  Colorful
+ ![Colorful](examples/colorful.png?raw=true)
 
  Liberty
+  ![Liberty](examples/Liberty.png?raw=true)
 
  has3dkx
+  ![has3dkx](examples/has3dkx.png?raw=true)
 
  Weighted Sum merge (liberty + has3dkx)
+  ![ws05](examples/ws05.png?raw=true)
 
  LossLessMix (colorful + liberty + has3dkx)
+  ![mindif](examples/mindif.png?raw=true)
 
  Colorful model (created wthout merging, only with mixing)
 
