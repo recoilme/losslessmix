@@ -36,6 +36,12 @@ a[key] = c[key] * (abs(a[key] - args.alpha*b[key]) > abs(a[key] - args.beta*c[ke
  LossLessMix (colorful + liberty + has3dkx)
   ![mindif](examples/mindif.png?raw=true)
 
+# Prompt:
+```
+modelshoot style, (extremely detailed CG unity 8k wallpaper), full shot body photo of the most beautiful artwork in the world, medieval armor, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski
+Negative prompt: deformed, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, disgusting, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, blurry, ((((mutated hands and fingers)))), watermark, watermarked, oversaturated, censored, distorted hands, amputation, missing hands, obese, doubled face, double hands, b&w, black and white, sepia
+Steps: 28, Sampler: DPM++ 2M Karras, CFG scale: 7, Seed: 0, Size: 576x832, Model hash: 277a582c32, ENSD: 31337, Script: X/Y/Z plot, X Type: Seed, X Values: "0,1,10000,393076097", Fixed X Values: "0, 1, 10000, 393076097"
+```
  Colorful model (created wthout merging, only with mixing)
 
 https://civitai.com/models/7279/colorful
