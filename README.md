@@ -1,12 +1,23 @@
 ## Algorithm that allows you to mix models without loss of quality. 
 
-TLDR; When mixing, the weights closest to the weights of the original model are chosen
+**TLDR;** When mixing, the weights closest to the weights of the original model are chosen. When combining three models (a,b,c), the algorithm takes the nearest weights from models b or c (mixes them (b and c)). The new weights are added.
 
 ## Algorithm
 
 ```
 a[key] = c[key] * (abs(a[key] - args.alpha*b[key]) > abs(a[key] - args.beta*c[key])) + b[key] * (abs(a[key] - args.alpha*b[key]) <= abs(a[key] - args.beta*c[key]))
 ```
+example:
+```
+a[0.2,-.02]
+
+b[0.25,-0.06]
+
+c[0.3,-.03]
+
+result tensor [0.25,-0.03]
+```
+
 ## Usage
 
 ```
