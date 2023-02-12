@@ -1,6 +1,6 @@
 ## An experimental algorithm that allows you to mix models without loss of quality. 
 
-When mixing, the weights closest to the weights of the original model are chosen
+TLDR; When mixing, the weights closest to the weights of the original model are chosen
 
 ## Algorithm
 
@@ -51,7 +51,7 @@ https://civitai.com/models/7279/colorful
 Also implemented the maxdiff algorithm proposed by https://www.reddit.com/user/Another__one/ here https://www.reddit.com/r/StableDiffusion/comments/1012lto/comment/j7aoyso/?context=3
 
 
-Can be applied to mix models oriented for different tasks (landscapes + 3d), when mixing similar models it can lead to unexpected results
+Can be applied to mix models oriented for different tasks (landscapes + 3d), when mixing similar models it can lead to unexpected (but fun!) results
 
 MaxDifMix (colorful + liberty + has3dkx)
 ![maxdif](examples/maxdiff.png?raw=true)
