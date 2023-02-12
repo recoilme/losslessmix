@@ -25,7 +25,7 @@ a[key] = c[key] * (abs(a[key] - args.alpha*b[key]) > abs(a[key] - args.beta*c[ke
  ![Colorful](examples/colorful.png?raw=true)
 
  Liberty
-  ![Liberty](examples/Liberty.png?raw=true)
+  ![Liberty](examples/liberty.png?raw=true)
 
  has3dkx
   ![has3dkx](examples/has3dkx.png?raw=true)
@@ -47,8 +47,8 @@ Also implemented the maxdiff algorithm proposed by https://www.reddit.com/user/A
 
 Can be applied to mix models oriented for different tasks (landscapes + 3d), when mixing similar models it can lead to unexpected results
 
-MaxDiffMix (colorful + liberty + has3dkx)
-
+MaxDifMix (colorful + liberty + has3dkx)
+![maxdif](examples/maxdif.png?raw=true)
 
 But it work well then merge redshiftdiffusion with landscape model, try "Ford mustang at night forest"
 
