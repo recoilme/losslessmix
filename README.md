@@ -1,4 +1,4 @@
-## An experimental algorithm that allows you to mix models without loss of quality. 
+## Algorithm that allows you to mix models without loss of quality. 
 
 TLDR; When mixing, the weights closest to the weights of the original model are chosen
 
