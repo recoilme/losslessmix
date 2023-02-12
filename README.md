@@ -36,6 +36,9 @@ a[key] = c[key] * (abs(a[key] - args.alpha*b[key]) > abs(a[key] - args.beta*c[ke
  LossLessMix (colorful + liberty + has3dkx)
   ![mindif](examples/mindif.png?raw=true)
 
+ Delibirate (not mixed, just for "variety" comparing)
+  ![delibirate](examples/delibirate.png?raw=true)
+
 # Prompt:
 ```
 modelshoot style, (extremely detailed CG unity 8k wallpaper), full shot body photo of the most beautiful artwork in the world, medieval armor, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski
