@@ -54,7 +54,7 @@ Also implemented the maxdiff algorithm proposed by https://www.reddit.com/user/A
 Can be applied to mix models oriented for different tasks (landscapes + 3d), when mixing similar models it can lead to unexpected results
 
 MaxDifMix (colorful + liberty + has3dkx)
-![maxdif](examples/maxdif.png?raw=true)
+![maxdif](examples/maxdiff.png?raw=true)
 
 But it work well then merge redshiftdiffusion with landscape model, try "Ford mustang at night forest"
 
