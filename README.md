@@ -7,6 +7,12 @@ TLDR; When mixing, the weights closest to the weights of the original model are 
 ```
 a[key] = c[key] * (abs(a[key] - args.alpha*b[key]) > abs(a[key] - args.beta*c[key])) + b[key] * (abs(a[key] - args.alpha*b[key]) <= abs(a[key] - args.beta*c[key]))
 ```
+## Usage
+
+```
+python3 losslessmix.py colorful_v12_RC1.ckpt liberty.ckpt has3dkx.ckpt --out tst
+
+```
 
 ## Disadvantages
 
