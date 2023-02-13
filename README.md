@@ -38,13 +38,13 @@ python3 losslessmix.py colorful_v12_RC1.ckpt liberty.ckpt has3dkx.ckpt --out tst
 
 ## Example
 
- Colorful
+ [Colorful](https://civitai.com/models/7279/colorful)
  ![Colorful](examples/colorful.png?raw=true)
 
- Liberty
+ [Liberty](https://civitai.com/models/5935/liberty)
   ![Liberty](examples/liberty.png?raw=true)
 
- has3dkx
+ [has3dkx](https://civitai.com/models/2504/handas-3dkx-11)
   ![has3dkx](examples/has3dkx.png?raw=true)
 
  Weighted Sum merge (liberty + has3dkx)
@@ -53,10 +53,44 @@ python3 losslessmix.py colorful_v12_RC1.ckpt liberty.ckpt has3dkx.ckpt --out tst
  **LossLessMix (colorful + liberty + has3dkx)**
   ![mindif](examples/mindif.png?raw=true)
 
- **LossLessMix with beta 1.1 (has3dkx * 1.1)**
+## Playing with alpha/beta
+
+Take a look to the root level tenzors:
 ```
-python3 losslessmix.py colorful_v11.ckpt liberty.ckpt has3dkx.ckpt --out tst --beta 1.1
+a:tensor([-17.9531,   7.5273,   9.1172,  ...,  -2.1504, -15.6719,  17.5625],
+       dtype=torch.float16)
+b:tensor([-18.7969,   8.0000,   9.6016,  ...,  -2.3867, -16.4219,  18.5000],
+       dtype=torch.float16)
+c:tensor([-17.9688,   7.3828,   9.6328,  ...,  -2.3691, -15.4766,  17.6719],
+       dtype=torch.float16)
 ```
+a & c in same space, but b - not, let's try to normalize, add some alpha 0.95
+```
+python3 losslessmix.py colorful_v11.ckpt liberty.ckpt has3dkx.ckpt --out tst --beta 1.0 --dry --alpha 0.95
+```
+root tenzors
+```
+step:1
+a:tensor([-17.9531,   7.5273,   9.1172,  ...,  -2.1504, -15.6719,  17.5625],
+       dtype=torch.float16)
+b:tensor([-17.8594,   7.6016,   9.1172,  ...,  -2.2676, -15.5938,  17.5625],
+       dtype=torch.float16)
+c:tensor([-17.9688,   7.3828,   9.6328,  ...,  -2.3691, -15.4766,  17.6719],
+       dtype=torch.float16)
+```
+ **LossLessMix (liberty * 0.95)**
+```
+python3 losslessmix.py colorful_v11.ckpt liberty.ckpt has3dkx.ckpt --out tst --alpha 0.95 
+```
+  ![alpha](examples/alpha.png?raw=true)
+
+Lets play with beta (just for fun)
+
+```
+python3 losslessmix.py colorful_v11.ckpt liberty.ckpt has3dkx.ckpt --out tst4 --beta 1.1
+```
+ **LossLessMix (has3dkx *1.2)**
+
   ![beta](examples/beta.png?raw=true)
 # Prompt:
 ```
