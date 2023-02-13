@@ -25,6 +25,19 @@ python3 losslessmix.py colorful_v12_RC1.ckpt liberty.ckpt has3dkx.ckpt --out tst
 
 ```
 
+## Two models merging
+
+ - merge models a + b with classic weighted sum
+ - it will be your reference, "average" model ab
+ - now merge models with lossless,  ab =  a || b: `losslessmix.py ab a b --out bestfrom_a_or_b`
+ - ...
+ - profit
+
+## Hints
+
+ - merging fp32 with fp16 probably bad idea, use prune
+ - if model b matrix [0.001,-0.001] very different from c [0.005,-0.005] - use alpha/beta, or find more similar model
+
 ## Disadvantages
 
  - Models must have a similar order of weights 
