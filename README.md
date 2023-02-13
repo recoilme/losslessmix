@@ -89,7 +89,7 @@ Lets play with beta (just for fun)
 ```
 python3 losslessmix.py colorful_v11.ckpt liberty.ckpt has3dkx.ckpt --out tst4 --beta 1.1
 ```
- **LossLessMix (has3dkx *1.2)**
+ **LossLessMix (has3dkx * 1.2)**
 
   ![beta](examples/beta.png?raw=true)
 # Prompt:
