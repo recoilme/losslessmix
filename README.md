@@ -137,14 +137,14 @@ But it work well then merge redshiftdiffusion with landscape model, try "Ford mu
 
 ![mix2](examples/mix2.png?raw=true)
 
-### First mix
+### Let's mix it! 
 
 ```
 losslessmix.py colorful_v11.ckpt colorful_v12.ckpt d_f222.ckpt --out tmp --beta 0.97                
 ```
 ![t4](examples/t4.png?raw=true)
 
-### Final mix. LossLess Mixing result (colorful v1.3)
+### Good girl. But give me back my beach with sun and palm trees!
 ```
 losslessmix.py colorful_v11.ckpt colorful_v12.ckpt tmp.ckpt --out colorful_v1.3
 ```
@@ -152,7 +152,7 @@ losslessmix.py colorful_v11.ckpt colorful_v12.ckpt tmp.ckpt --out colorful_v1.3
 
 ## PS
 
-### Please stop asking me how to run this and how to work with it. This script consists of 56 lines of code. I wrote it without knowing Python. This is my first and hopefully last Python program. Please read the instructions and see the code.
+### Please stop asking me how to run this and how to work with it. This script consists of 56 lines of code. I wrote it without knowing Python. This is my first and hopefully last Python program. Please read the readme and look at the code.
 
 
 I would be happy if you find this algorithm useful. 
