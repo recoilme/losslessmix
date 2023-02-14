@@ -127,7 +127,7 @@ MaxDifMix (colorful + liberty + has3dkx)
 
 But it work well then merge redshiftdiffusion with landscape model, try "Ford mustang at night forest"
 
-## Mix example
+## Detailed guide.
 
 ### Model with bad face (colorful v1.2)
 
@@ -137,13 +137,25 @@ But it work well then merge redshiftdiffusion with landscape model, try "Ford mu
 
 ![mix2](examples/mix2.png?raw=true)
 
-### LossLess Mixing result (colorful v1.3)
+### First mix
 
+```
+losslessmix.py colorful_v11.ckpt colorful_v12.ckpt d_f222.ckpt --out tmp                  
+```
+![t4](examples/t4.png?raw=true)
+
+### Final mix. LossLess Mixing result (colorful v1.3)
+```
+losslessmix.py colorful_v11.ckpt colorful_v12.ckpt tmp.ckpt --out colorful_v1.3
+```
 ![mix3](examples/mix3.png?raw=true)
 
 ## PS
 
-Unfortunately I am limited in the speed of algorithm development (macbook air m1), I would be happy if you find this algorithm useful. 
+### Please stop asking me how to run this and how to work with it. This script consists of 56 lines of code. I wrote it without knowing Python. This is my first and hopefully last Python program. Please read the instructions and see the code.
+
+
+I would be happy if you find this algorithm useful. 
 
 My Doge Wallet: DEw2DR8C7BnF8GgcrfTzUjSnGkuMeJhg83
 
