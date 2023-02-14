@@ -140,7 +140,7 @@ But it work well then merge redshiftdiffusion with landscape model, try "Ford mu
 ### First mix
 
 ```
-losslessmix.py colorful_v11.ckpt colorful_v12.ckpt d_f222.ckpt --out tmp                  
+losslessmix.py colorful_v11.ckpt colorful_v12.ckpt d_f222.ckpt --out tmp --beta 0.97                
 ```
 ![t4](examples/t4.png?raw=true)
 
