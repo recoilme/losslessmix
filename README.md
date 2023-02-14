@@ -129,13 +129,16 @@ But it work well then merge redshiftdiffusion with landscape model, try "Ford mu
 
 ## Mix example
 
-Model with bad face (colorful v1.2)
+### Model with bad face (colorful v1.2)
+
 ![colorfulv11](examples/mix1.png?raw=true)
 
-Model with good face, but bad background (f222)
+### Model with good face, but bad background (f222)
+
 ![mix2](examples/mix2.png?raw=true)
 
-LossLess Mixing result
+### LossLess Mixing result
+
 ![mix3](examples/mix3.png?raw=true)
 
 ## PS
