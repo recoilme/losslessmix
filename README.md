@@ -127,6 +127,17 @@ MaxDifMix (colorful + liberty + has3dkx)
 
 But it work well then merge redshiftdiffusion with landscape model, try "Ford mustang at night forest"
 
+## Mix example
+
+Model with bad face (colorful v1.2)
+![colorfulv11](examples/mix1.png?raw=true)
+
+Model with good face, but bad background (f222)
+![mix2](examples/mix2.png?raw=true)
+
+LossLess Mixing result
+![mix3](examples/mix3.png?raw=true)
+
 ## PS
 
 Unfortunately I am limited in the speed of algorithm development (macbook air m1), I would be happy if you find this algorithm useful. 
