@@ -137,7 +137,7 @@ But it work well then merge redshiftdiffusion with landscape model, try "Ford mu
 
 ![mix2](examples/mix2.png?raw=true)
 
-### LossLess Mixing result
+### LossLess Mixing result (colorful v1.3)
 
 ![mix3](examples/mix3.png?raw=true)
 
