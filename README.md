@@ -32,10 +32,13 @@ Steps: 28, Sampler: DPM++ 2M Karras, CFG scale: 7, Seed: 0, Size: 576x832, Model
 ```
 
 
-## My models (created with this algorithm)
+## The list of models that used this script to create them:
 
-[animatrix](https://civitai.com/models/21916/animatrix)
-[Colorful](https://civitai.com/models/7279/colorful)
+- [ReV Animated](https://civitai.com/models/7371/rev-animated)
+
+- [animatrix](https://civitai.com/models/21916/animatrix)
+
+- [Colorful](https://civitai.com/models/7279/colorful)
 
 
 ## PS
