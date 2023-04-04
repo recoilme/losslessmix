@@ -32,8 +32,9 @@ Steps: 28, Sampler: DPM++ 2M Karras, CFG scale: 7, Seed: 0, Size: 576x832, Model
 ```
 
 
-## My colorful model (created with this algorithm)
+## My models (created with this algorithm)
 
+[animatrix](https://civitai.com/models/21916/animatrix)
 [Colorful](https://civitai.com/models/7279/colorful)
 
 
@@ -42,10 +43,10 @@ Steps: 28, Sampler: DPM++ 2M Karras, CFG scale: 7, Seed: 0, Size: 576x832, Model
 ### Please stop asking me how to run this and how to work with it. I wrote it without knowing Python. This is my second and hopefully last Python script.
 
 
-But i would be happy if you find this algorithm useful. 
+## My Doge Wallet
 
-My Doge Wallet: DEw2DR8C7BnF8GgcrfTzUjSnGkuMeJhg83
+DEw2DR8C7BnF8GgcrfTzUjSnGkuMeJhg83
 
 ## Have fun!
 
-![fun](examples/1.png?raw=true)
+![fun](examples/1.jpeg?raw=true)
