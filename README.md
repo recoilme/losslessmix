@@ -1,3 +1,6 @@
+## Please use supermerger project: https://github.com/hako-mikan/sd-webui-supermerger
+It has improved  version of cosine similarity with awesome UI
+
 ## Algorithm that allows you to mix models without loss of quality. 
 
 **TLDR;** Mixing models by cosine similarity
